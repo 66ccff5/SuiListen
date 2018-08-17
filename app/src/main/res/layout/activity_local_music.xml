@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.administrator.playaudiotest.LocalMusicActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:divider="@drawable/mine_own_item_devide"
+    android:showDividers="middle|end"
+    >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/localmusic_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="本地音乐"
+        android:fitsSystemWindows="true"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/play_all_linear"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:src="@drawable/lay_icn_play" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="播放全部"
+            android:textColor="#161616"
+            android:paddingRight="2dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/msuic_mount"
+            android:layout_marginLeft="2dp"
+            android:gravity="center_vertical"
+            android:textColor="#8c8b8b"
+            android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+               android:layout_marginLeft="20dp"
+                android:src="@drawable/playbar_btn_playlist" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/music_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="bottom"
+        android:id="@+id/play_bottom_linera_1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/pager_bottom_1"
+            >
+
+            <ImageView android:id="@+id/bottom_music_image_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/music_icn_local"
+
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:id="@+id/bottom_music_text_1"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="7dp"
+                    android:textSize="14sp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:scrollbars="horizontal"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:id="@+id/bottom_music_text_singer_1"
+                    android:paddingLeft="10dp"
+                    android:textSize="12sp"
+                    android:text=""
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:scrollbars="horizontal"
+                    />
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp">
+            <ImageView
+                android:id="@+id/start_pause_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/play_btn"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PlayAudioTest</string>
+    <string name="title_activity_local_music">LocalMusicActivity</string>
+</resources>
