@@ -1,7 +1,6 @@
 package com.example.administrator.playaudiotest.fragment;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,20 +8,13 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.TableLayout;
 
-import com.example.administrator.playaudiotest.MainActivity;
-import com.example.administrator.playaudiotest.Music;
 import com.example.administrator.playaudiotest.R;
-import com.example.administrator.playaudiotest.adapter.MusicAdapter;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

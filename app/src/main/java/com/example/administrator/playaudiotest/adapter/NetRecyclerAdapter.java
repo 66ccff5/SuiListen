@@ -1,23 +1,18 @@
 package com.example.administrator.playaudiotest.adapter;
 
-import android.media.AudioManager;
-import android.media.MediaPlayer;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.administrator.playaudiotest.CloudActivity;
-import com.example.administrator.playaudiotest.MyApplication;
+import com.example.administrator.playaudiotest.activity.CloudActivity;
 import com.example.administrator.playaudiotest.R;
-import com.example.administrator.playaudiotest.SerchActivity;
+import com.example.administrator.playaudiotest.activity.SerchActivity;
 import com.example.administrator.playaudiotest.service.NetMusic;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Administrator on 2018/6/11 0011.

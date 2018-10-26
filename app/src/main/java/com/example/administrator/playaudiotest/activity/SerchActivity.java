@@ -1,6 +1,5 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.activity;
 
-import android.media.MediaPlayer;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.support.v4.content.ContextCompat;
@@ -16,13 +15,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.BaseAdapter;
-import android.widget.ListView;
 import android.widget.SearchView;
-import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
+import com.example.administrator.playaudiotest.bean.MyApplication;
+import com.example.administrator.playaudiotest.R;
 import com.example.administrator.playaudiotest.adapter.NetRecyclerAdapter;
 import com.example.administrator.playaudiotest.service.NetMusic;
 

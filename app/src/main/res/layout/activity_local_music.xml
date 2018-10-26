@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.example.administrator.playaudiotest.LocalMusicActivity"
+    tools:context="com.example.administrator.playaudiotest.activity.LocalMusicActivity"
     android:background="@color/background"
     android:orientation="vertical"
     android:divider="@drawable/mine_own_item_devide"

@@ -1,4 +1,4 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.view;
 
 import android.content.Context;
 import android.graphics.Rect;

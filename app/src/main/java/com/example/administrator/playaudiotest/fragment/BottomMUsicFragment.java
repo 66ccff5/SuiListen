@@ -1,28 +1,20 @@
 package com.example.administrator.playaudiotest.fragment;
 
-import android.app.Activity;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
-import android.graphics.drawable.BitmapDrawable;
 import android.media.MediaMetadataRetriever;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.administrator.playaudiotest.LaunchActivity;
-import com.example.administrator.playaudiotest.MainActivity;
-import com.example.administrator.playaudiotest.MineMusicList;
-import com.example.administrator.playaudiotest.Music;
-import com.example.administrator.playaudiotest.MyApplication;
+import com.example.administrator.playaudiotest.bean.Music;
+import com.example.administrator.playaudiotest.bean.MyApplication;
 import com.example.administrator.playaudiotest.R;
 
 /**

@@ -1,4 +1,4 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.other;
 
 import android.animation.ObjectAnimator;
 import android.animation.TimeInterpolator;

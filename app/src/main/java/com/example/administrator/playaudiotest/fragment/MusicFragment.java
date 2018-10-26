@@ -1,13 +1,8 @@
 package com.example.administrator.playaudiotest.fragment;
 
-import android.content.Context;
-import android.graphics.drawable.Drawable;
-import android.media.MediaPlayer;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -18,14 +13,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.administrator.playaudiotest.CloudActivity;
-import com.example.administrator.playaudiotest.MainActivity;
-import com.example.administrator.playaudiotest.MineMusicList;
+import com.example.administrator.playaudiotest.activity.MainActivity;
+import com.example.administrator.playaudiotest.other.MineMusicList;
 import com.example.administrator.playaudiotest.R;
 import com.example.administrator.playaudiotest.adapter.MusicAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Administrator on 2018/4/1 0001.

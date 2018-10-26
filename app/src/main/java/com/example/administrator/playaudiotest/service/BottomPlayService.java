@@ -6,7 +6,6 @@ import android.os.IBinder;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,12 +13,11 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.example.administrator.playaudiotest.CloudActivity;
-import com.example.administrator.playaudiotest.MineMusicList;
-import com.example.administrator.playaudiotest.MyApplication;
-import com.example.administrator.playaudiotest.PlayContent;
+import com.example.administrator.playaudiotest.activity.CloudActivity;
+import com.example.administrator.playaudiotest.other.MineMusicList;
+import com.example.administrator.playaudiotest.bean.MyApplication;
+import com.example.administrator.playaudiotest.bean.PlayContent;
 import com.example.administrator.playaudiotest.R;
-import com.example.administrator.playaudiotest.adapter.MusicAdapter;
 
 public class BottomPlayService extends Service {
 

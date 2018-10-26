@@ -1,4 +1,4 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.activity;
 
 import android.content.Intent;
 import android.media.MediaPlayer;

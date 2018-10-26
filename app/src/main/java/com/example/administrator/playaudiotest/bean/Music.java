@@ -1,4 +1,4 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.bean;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;

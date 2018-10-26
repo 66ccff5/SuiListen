@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".MyApplication"
+        android:name=".bean.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -19,11 +19,11 @@
             android:exported="true" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:label=""
             android:theme="@style/MainActivityTheme" />
         <activity
-            android:name=".LaunchActivity"
+            android:name=".activity.LaunchActivity"
             android:label=""
             android:theme="@style/LaunchActivityTheme">
             <intent-filter>
@@ -33,7 +33,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LocalMusicActivity"
+            android:name=".activity.LocalMusicActivity"
             android:label=""
             android:theme="@style/LocalMusicTheme" />
 
@@ -42,11 +42,11 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".CloudActivity" />
+        <activity android:name=".activity.CloudActivity" />
         <activity
-            android:name=".MusicActivity"
+            android:name=".activity.MusicActivity"
             android:theme="@style/MusicActivityTheme" />
-        <activity android:name=".SerchActivity"
+        <activity android:name=".activity.SerchActivity"
             android:theme="@style/SerchActivityTheme"/>
     </application>
 

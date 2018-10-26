@@ -1,34 +1,18 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.activity;
 
 import android.Manifest;
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Handler;
-import android.os.storage.StorageManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Toast;
 
-import com.example.administrator.playaudiotest.adapter.MusicAdapter;
-
-import java.io.File;
-import java.io.Serializable;
-import java.lang.reflect.Method;
-import java.util.LinkedList;
-import java.util.List;
+import com.example.administrator.playaudiotest.other.MineMusicList;
+import com.example.administrator.playaudiotest.R;
 
 public class LaunchActivity extends AppCompatActivity {
     @Override

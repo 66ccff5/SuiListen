@@ -10,7 +10,7 @@
     android:orientation="vertical"
     android:divider="@drawable/music_activty_divide"
     android:showDividers="middle"
-    tools:context="com.example.administrator.playaudiotest.MusicActivity">
+    tools:context="com.example.administrator.playaudiotest.activity.MusicActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,7 +45,7 @@
                     android:layout_weight="8"
                     android:orientation="vertical">
 
-                    <com.example.administrator.playaudiotest.AutoMarqueeTextView
+                    <com.example.administrator.playaudiotest.view.AutoMarqueeTextView
                         android:id="@+id/music_title"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"

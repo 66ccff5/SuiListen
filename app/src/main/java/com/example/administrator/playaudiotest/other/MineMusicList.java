@@ -1,7 +1,6 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.other;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,14 +9,13 @@ import android.media.MediaMetadataRetriever;
 import android.net.Uri;
 import android.os.storage.StorageManager;
 
+import com.example.administrator.playaudiotest.bean.Music;
+import com.example.administrator.playaudiotest.bean.MyApplication;
 import com.example.administrator.playaudiotest.fragment.BottomMUsicFragment;
-import com.example.administrator.playaudiotest.fragment.FriendsFragment;
 
 import java.io.File;
 import java.lang.reflect.Method;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 

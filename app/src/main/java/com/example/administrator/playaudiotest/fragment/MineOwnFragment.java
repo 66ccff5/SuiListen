@@ -1,29 +1,20 @@
 package com.example.administrator.playaudiotest.fragment;
 
 import android.app.Activity;
-import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.text.Layout;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.AbsListView;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.administrator.playaudiotest.LocalMusicActivity;
-import com.example.administrator.playaudiotest.Music;
-import com.example.administrator.playaudiotest.MusicActivity;
+import com.example.administrator.playaudiotest.activity.LocalMusicActivity;
 import com.example.administrator.playaudiotest.R;
-import com.example.administrator.playaudiotest.SerchActivity;
-import com.example.administrator.playaudiotest.adapter.MusicAdapter;
 
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.example.administrator.playaudiotest;
+package com.example.administrator.playaudiotest.other;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -13,6 +13,8 @@ import android.view.WindowManager;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
+import com.example.administrator.playaudiotest.bean.MyApplication;
+import com.example.administrator.playaudiotest.R;
 import com.example.administrator.playaudiotest.adapter.MusicAdapter;
 
 /**
