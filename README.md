@@ -30,6 +30,8 @@
 
 主界面
 ---
+![image](https://github.com/PengLeixin/SuiListen/blob/master/app/src/main/res/drawable/gif5_8.gif)
+>通过一个activity与五个fragment实现，使用了pagerView与TabLayout进行布局，分为分为音乐，发现，我的，电台，伙伴等五部分，有些部分由于没有UI素材故未实现，还有一个用户侧滑栏由DrawerLayout实现
 
 
 歌曲播放模式切换
@@ -37,4 +39,9 @@
 ![image](https://github.com/PengLeixin/SuiListen/blob/master/app/src/main/res/drawable/gif5_6.gif)
 >这个功能的实现需要实现MediaPlayer.OnCompletionListener接口并重写其中onCompletion方法，这个方法会在每首歌播放结束时执行，通过在该方法中判断设置的播放模式来决定接着放下一首还是循环播放还是随机播放
 
-本地音乐节面
+在线搜索歌曲
+---
+![image](https://github.com/PengLeixin/SuiListen/blob/master/app/src/main/res/drawable/gif5_7.gif)
+>该功能为联网搜索歌曲并播放，歌曲的搜索及文件接口都是网易云提供
+
+
