@@ -35,7 +35,7 @@ public class LaunchActivity extends AppCompatActivity {
         decorView.setSystemUiVisibility(option);
         Handler launch = new Handler();
 
-        launch.postDelayed(new splashhandler(),7000);
+        launch.postDelayed(new splashhandler(),4000);
     }
 
 

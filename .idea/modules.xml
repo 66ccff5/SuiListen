@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PlayAudioTest.iml" filepath="$PROJECT_DIR$/PlayAudioTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SuiListen.iml" filepath="$PROJECT_DIR$/SuiListen.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidimageblur/androidimageblur.iml" filepath="$PROJECT_DIR$/androidimageblur/androidimageblur.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

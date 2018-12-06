@@ -92,9 +92,6 @@ public class LocalMusicActivity extends CloudActivity {
             }
         });
 
-
-
-
         pagerView.setOnTouchListener(new View.OnTouchListener() {
             float mStart;
             float mEnd;
