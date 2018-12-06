@@ -14,4 +14,4 @@
 
 启动页面
 ---
-![image]()
+![image](https://github.com/PengLeixin/SuiListen/blob/master/app/src/main/res/drawable/gif5_1.gif)
