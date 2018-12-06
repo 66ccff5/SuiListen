@@ -42,6 +42,17 @@
 在线搜索歌曲
 ---
 ![image](https://github.com/PengLeixin/SuiListen/blob/master/app/src/main/res/drawable/gif5_7.gif)
->该功能为联网搜索歌曲并播放，歌曲的搜索及文件接口都是网易云提供
+>该功能为联网搜索歌曲并播放，歌曲的搜索及文件接口都是网易云音乐的api接口，由网友提供
+
+使用的开源框架：
+---
+1.Glide
+2.AndroidImageBlur
+3.Okhttp
+
+使用的设计模式：
+---
+1.适配器模式
+2.单例模式
 
 
