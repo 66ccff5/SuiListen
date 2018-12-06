@@ -46,13 +46,13 @@
 
 使用的开源框架：
 ---
-1.Glide
-2.AndroidImageBlur
-3.Okhttp
+1.Glide<br>
+2.AndroidImageBlur<br>
+3.Okhttp<br>
 
 使用的设计模式：
 ---
-1.适配器模式
-2.单例模式
+1.适配器模式<br>
+2.单例模式<br>
 
 
