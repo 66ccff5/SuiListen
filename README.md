@@ -49,6 +49,9 @@
 1.Glide<br>
 2.AndroidImageBlur<br>
 3.Okhttp<br>
+4.Cardview<br>
+5.CircleImageview<br>
+
 
 使用的设计模式：
 ---
